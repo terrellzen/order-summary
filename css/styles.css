@@ -1,0 +1,120 @@
+body {
+  background-color: #e0e8ff;
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-repeat: repeat-x;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  color: #7280a7;
+  font-size: 1.00rem;
+}
+
+h1 {
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+h3 {
+  color: #1f2f56;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.cancel-order {
+  color: #7280a7;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cancel-order:hover {
+  color: #1f2f56;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.change-plan {
+  display: inline-block;
+  position: absolute;
+  right: 6%;
+  text-decoration: none;
+}
+
+.change-plan a {
+  color: #3829e0;
+  font-weight: 600;
+}
+
+.change-plan a:hover {
+  color: #6860de;
+  font-weight: 600;
+}
+
+.container {
+  background-color: white;
+  background-image: url('../images/illustration-hero.svg');
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  position: relative;
+  margin: 5% auto;
+  width: 450px;
+}
+
+.music-icon {
+  left: 20px;
+  position: absolute;
+  text-align: left;
+}
+
+.order-summary {
+  padding-top: 250px;
+  margin: 0 50px 30px;
+}
+
+.payment-btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  background: #3829e0;
+  border-radius: 10px;
+  color: #f5f7ff;
+  display: inline-block;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  margin: 40px auto;
+  padding: 13px 100px;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px #666666;
+}
+
+.payment-btn:hover {
+  background: #6860de;
+  text-decoration: none;
+}
+
+.price {
+  display: inline-block;
+  left: 90px;
+  position: absolute;
+  text-align: left;
+}
+
+.subscription-plan {
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  height: 45px;
+  margin: 0 50px;
+  padding: 20px;
+  position: relative;
+}
